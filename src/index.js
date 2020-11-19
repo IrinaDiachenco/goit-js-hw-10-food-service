@@ -1,6 +1,7 @@
+import './styles.css';
 import menuItemTpl from './templates/menu-item.hbs';
 import menu from './menu.json';
-import './styles.css';
+
 
 const STORAGE_KEY_THEME = 'checked-dark-theme';
 
