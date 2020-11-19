@@ -8,6 +8,7 @@ const Theme = {
   LIGHT: 'light-theme',
   DARK: 'dark-theme',
 };
+
 const refs = {
   menuList: document.querySelector('.js-menu'),
   checkbox: document.querySelector('#theme-switch-toggle'),
@@ -30,7 +31,6 @@ function oncheckboxChange() {
     localStorage.removeItem(STORAGE_KEY_THEME);
     localStorage.setItem(STORAGE_KEY_THEME, true);
   } else {
-
     refs.checkbox.checked = false;
 
     localStorage.removeItem(STORAGE_KEY_THEME);
